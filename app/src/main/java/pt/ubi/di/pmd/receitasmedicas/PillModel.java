@@ -1,6 +1,7 @@
 package pt.ubi.di.pmd.receitasmedicas;
 
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.text.DateFormat;
@@ -29,7 +30,7 @@ public class PillModel {
         this.tomar();
     }
 
-    private void tomar() {
+    public void tomar() {
         this.ultimaToma = new Date();
         this.tomasRestantes--;
 
